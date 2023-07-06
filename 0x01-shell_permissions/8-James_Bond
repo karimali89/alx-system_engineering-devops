@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod "0_owner0_group7_other" "hello"
+chmod "7" "hello"
