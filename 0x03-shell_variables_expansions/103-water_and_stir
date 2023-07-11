@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "$WATER$STIR" | tr '[a-z].' '0123456789.' | bc | awk '{ printf("%d\n",$0) }' | tr '0123456789' 'bestchol'
+printf "%o\n" $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234 ))) )) | tr01234567 bestchol
